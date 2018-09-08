@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Torrentfreak Scraper</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="../assets/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <style>
+    body {
+      background-image: url("images/torrent.jpg");
+      background-size: 100%;
+      font-family: 'Tangerine', serif;
+      font-size: 20px;
+      text-shadow: 4px 4px 4px #aaa;
+    }
+
+    #scrapeNews {
+      margin-top: 1%;
+      margin-left: 800px;
+    }
+
+    h1 {
+      margin-top: -70px;
+      margin-left: 120px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/TorrentFreak_logo.svg.png" width="100" height="100" class="d-inline-block align-top" alt="">
+      <h1>Torrentfreak's latest news!</h1>
+    </a>
+  </nav>
+  <button type="button" a id="scrapeNews" class="btn btn-secondary btn-lg">Scrape the latest TF news</button>
+  <div id="wrapper">
+    <h1></h1>
+    <div id="articles"></div>
+    <div id="notes"></div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
